@@ -16,7 +16,7 @@ class RTypeFlow(Scene):
         alu = Polygon(
             UP*1.5 + LEFT*1, UP*0.5 + RIGHT*1, DOWN*0.5 + RIGHT*1,
             DOWN*1.5 + LEFT*1, DOWN*0.5 + LEFT*1, ORIGIN + LEFT*0.5, UP*0.5 + LEFT*1,
-            color=RED, fill_opacity=0.2
+            color=BLUE, fill_opacity=0.2
         ).shift(RIGHT*5)
         alu_text = Text("ALU", font_size=24).move_to(alu)
 
